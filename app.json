@@ -1,13 +1,38 @@
 {
   "pages":[
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/sort/index",
+    "pages/isuse/index",
+    "pages/my/index"
   ],
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "Weixin",
+    "navigationBarTitleText": "小肖的小仓库",
     "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "/static/tabbar/index.png",
+      "selectedIconPath": "/static/tabbar/index1.png"
+    },{
+      "pagePath": "pages/sort/index",
+      "text": "分类",
+      "iconPath": "/static/tabbar/category.png",
+      "selectedIconPath": "/static/tabbar/category1.png"
+    },{
+      "pagePath": "pages/isuse/index",
+      "text": "购物车",
+      "iconPath": "/static/tabbar/shopping.png",
+      "selectedIconPath": "/static/tabbar/shopping1.png"
+    },{
+      "pagePath": "pages/my/index",
+      "text": "我的",
+      "iconPath": "/static/tabbar/user.png",
+      "selectedIconPath": "/static/tabbar/user1.png"
+    }]
   },
   "style": "v2",
   "sitemapLocation": "sitemap.json"
